@@ -187,19 +187,7 @@ cursor: pointer;
     cursor: pointer;
   }
 }
-@media screen and(max-width:450px){
-  *{
-    margin: 0 auto;
-  }
-  nav{
-      flex-direction: column;
-
-  }
-  article{
-    flex-direction: column;
-    display: flex;
-  }
-
+@media(max-width: 777px){
   .conteudo{
     flex-direction: column;
   }
@@ -209,12 +197,18 @@ cursor: pointer;
   .menu ul{
     flex-direction: column;
   }
-  .h1{
-    font-size: 1rem;
-  }
-  .h2{
-    font-size: 1rem;
-  }
+  .introducao-img{
+    width: 30vh;
+    height: 600px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    position: relative;
+    cursor: pointer;
+  } 
+  .vantagens-titulo{
+    font-size: 1.5rem;
+    letter-spacing: 1px;
 
+  } 
 }
 
